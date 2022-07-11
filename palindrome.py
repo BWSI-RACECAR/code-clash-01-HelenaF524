@@ -35,10 +35,9 @@ class Solution:
         back = s[::-1]
         lengthy = len(s)
         if(lengthy>6):
-            if(back == lengthy):
+            if(back == s):
                 return True
         return False
-
 
 def main():
     tc1 = Solution()
